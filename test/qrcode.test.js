@@ -14,4 +14,8 @@ describe('qrcode', () => {
         const decodedUrl = qrcode.decode_utf8('https://www.google.com')
         expect(decodedUrl).to.be.equal('https://www.google.com')
     })
+    it('does something about a vid error', () => {
+        qrcode.vidError()
+        expect(qrcode.gUM).to.be.false
+    })
 })

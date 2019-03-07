@@ -6,7 +6,8 @@
   "author": "Brent M Clark <brentmclark@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "test": "mocha --require @babel/register"
+    "test": "mocha --require @babel/register",
+    "build-prod": "babel src --out-dir lib --presets=@babel/env"
   },
   "dependencies": {
     "@babel/cli": "^7.2.3",
