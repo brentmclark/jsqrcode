@@ -228,3 +228,5 @@ function GF256Poly(field,  coefficients)
 			return new Array(quotient, remainder);
 		}
 }
+
+module.exports = GF256Poly

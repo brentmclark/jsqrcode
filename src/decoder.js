@@ -22,6 +22,8 @@
 * limitations under the License.
 */
 
+var ReedSolomonDecoder = require('./rsdecoder')
+var GF256 = require('./gf256')
 
 var Decoder={};
 Decoder.rsDecoder = new ReedSolomonDecoder(GF256.QR_CODE_FIELD);

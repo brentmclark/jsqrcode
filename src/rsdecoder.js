@@ -176,3 +176,5 @@ function ReedSolomonDecoder(field)
 			return result;
 		}
 }
+
+module.exports = ReedSolomonDecoder

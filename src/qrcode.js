@@ -14,6 +14,7 @@
    limitations under the License.
 */
 
+var Decoder = require('./decoder')
 
 var qrcode = {};
 qrcode.imagedata = null;

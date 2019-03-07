@@ -22,6 +22,8 @@
 * limitations under the License.
 */
 
+var GF256Poly = require('./gf256poly')
+
 
 function GF256( primitive)
 {
