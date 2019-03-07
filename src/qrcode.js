@@ -453,3 +453,4 @@ function URShift( number,  bits)
         return (number >> bits) + (2 << ~bits);
 }
 
+module.exports = qrcode
